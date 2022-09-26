@@ -1,1 +1,13 @@
-/* styles go here */
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cats {
+  display: inline-block;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
