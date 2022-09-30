@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-    method="post">
-
+    <form 
+     action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+     method="post"
+    >
       <fieldset>
         <legend>
         Parsonal information
@@ -26,16 +27,14 @@
             autocomplete="off"
           >
         </label>
-
         <label class="form Name">
          Name:
           <input 
-            type="text"
-            name="Name:"
-            autocomplete="off"
+           type="text"
+           name="Name:"
+           autocomplete="off"
           >
         </label>
-
         <label class="form old">
           How old are You?
           <input
@@ -46,7 +45,6 @@
             value="12"
           >
         </label>
-
         <label class="form date">
           Full date of birth:
           <input
@@ -55,7 +53,6 @@
            required
           >
         </label>
-
         <label class="form agreement">
          I accept the term of the agreement
           <input
@@ -65,7 +62,6 @@
           >
         </label> 
       </fieldset>
-
       <fieldset>
         <legend>
          Registration
@@ -80,7 +76,6 @@
            required
           >
         </label>
-
         <label class="form password">
            Password:
           <input
@@ -92,12 +87,10 @@
           >
         </label>
       </fieldset>
-
       <fieldset>
         <legend>
          An interesting fact about you!
         </legend>
-        
          Do you love cats?
         <label class="form cats">
           <input
@@ -107,7 +100,6 @@
           >
          Yes
         </label>
-
         <label class="form cats">
           <input
             type="radio"
@@ -116,21 +108,20 @@
           >
          No
         </label>
-    
         <label class="form color">
          What is your favorite color?
           <input
-          type="color"
-          name="color"
-          value="#000"
+           type="color"
+           name="color"
+           value="#000"
           >
         </label>
         <label class="form time">
          What time do you go to bed?
           <input
-              type="time"
-              name="time-to-bed"
-              required
+            type="time"
+            name="time-to-bed"
+            required
           >
         </label>
         <label class="form cars">
@@ -144,7 +135,6 @@
             <option value="Lada">Lada</option>
           </select>
         </label>
-
         <label class="form range">
          How do you rate our work?
           <input
@@ -156,41 +146,34 @@
           >
         </label>
       </fieldset>
-
       <fieldset>
         <legend>
          Additional info:
         </legend>
-
         <label class="form comments">
             Comments:
           <textarea
-              name="Comments"
+            name="Comments"
             >
           </textarea>
           </div>
         </label>
-        
         <label class="form recomend">
          Would you recommend us?
           <select
-          name ="recomend"
+           name ="recomend"
           >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
         </label>
-
       </fieldset>
-
       <input
         type="submit"
         name="Submit"
         value="Submit"
       >
-
       <script type="text/javascript" src="./main.js"></script>
-
     </form>
   </body>
 </html>
