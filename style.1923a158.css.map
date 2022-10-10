@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,MACE,kBAAmB,CACnB,aACF,CAEA,MACE,oBACF,CAEA,SACE,kBAAmB,CACnB,gBACF","file":"style.1923a158.css","sourceRoot":"..\\src","sourcesContent":["label {\n  margin-bottom: 10px;\n  display: block;\n}\n\n.cats {\n  display: inline-block;\n}\n\nfieldset {\n  margin-bottom: 20px;\n  padding-bottom: 0;\n}\n"]}
